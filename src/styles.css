@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --violet: #781ffe;
+  --light-grey: #d0cfd2;
+}
+
+*{
+  background: rgb(22,30,43);
+  margin:0;
+  padding:0;
+  color: var(--light-grey);
+  font-family: "Roboto", serif;
+
+}
+
+
+/*FLEX PART*/
+.flex{
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-items{
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+/*END FLEX PART*/
+
+/* BUTTON PART */
+
+button{
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button1{
+  background: var(--violet);
+  color: var(--light-grey);
+  border: none;
+
+}
+.button2{
+  border: 2px solid var(--violet);
+}
+
+/*END BUTTONS PART */
+
+/* MARGINS AND PADDING PART */
+.pdr-2 {
+  padding-right: 2rem;
+}
+
+.mr-2{
+  margin-right: 2rem;
+}
+
+.mt-2{
+  margin-top: 2rem;
+}
+/* END BUTTONS PART */
+
+
+/* TITLES PART */
+
+h3{
+  font-weight: initial;
+}
